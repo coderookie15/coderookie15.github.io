@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -103,14 +103,14 @@ analytics:
 # Site Author
 author:
   name             : "코드루키"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  avatar           : "/assets/images/006.png"
+  bio              : "hello hello"
+  location         : "대한민국"
+  email            : seokyung613@naver.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      # url: "seokyung613@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -282,9 +282,11 @@ defaults:
       path: ""
       type: posts
     values:
+      show_dates: true
       layout: single
       author_profile: true
       read_time: true
       comments: # true
       share: true
       related: true
+      search: true
