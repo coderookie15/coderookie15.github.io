@@ -283,23 +283,13 @@ defaults:
       type: posts
     values:
       show_dates: true
-      layout: splash
+      layout: single
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
       search: true
---------------------------
-      paginate: 5
-      paginate_path: /page:num/
---------------------------    
-      class: wide
-      toc: true
-      toc_label: "목차"
-      toc_icon: "cog"
-      
-      
       
       
       
