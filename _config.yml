@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "Code Rookie"
 title_separator          : "-"
 subtitle                 : "코드루키 포트폴리오"
-name                     : "코드루키"
+name                     : "이서경"
 description              : "An amazing website."
 url                      : "https://coderookie15.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -286,7 +286,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
       search: true
+      timezone: Asia/Seoul
+      
