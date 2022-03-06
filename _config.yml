@@ -295,7 +295,13 @@ defaults:
       toc_icon: "cog"
       paginate: 5
       paginate_path: /recent/page:num/
+      header: 
+      image: /assets/images/001.jpg
+      actions: 
+      - label: "Learn More"
+      url: "https://blog.naver.com/lastsun4"
       
+     
       
       
       
