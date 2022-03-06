@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "contrast"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Code Rookie"
+title                    : "홈페이지"
 title_separator          : "-"
 subtitle                 : "포트폴리오"
 name                     : "이서경"
@@ -291,4 +291,9 @@ defaults:
       related: true
       search: true
       timezone: Asia/Seoul
+      paginate: 3
+      layout: single
+      
+      
+      
       
