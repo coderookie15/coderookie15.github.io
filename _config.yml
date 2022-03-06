@@ -291,6 +291,8 @@ defaults:
       related: true
       search: true
       toc: true
+      sidebar:
+      nav: "docs"
       toc_label: "목차"
       toc_icon: "cog"
       paginate: 5
